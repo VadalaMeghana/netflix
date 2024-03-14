@@ -1,0 +1,176 @@
+.subscribe-button{
+  background-color: rgb(200, 0, 0);
+  color:white;
+  border:none;
+  border-radius:2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor:pointer;
+  margin-right:10px;
+  vertical-align: top;
+  transition: opacity 1s;
+}
+.subscribe-button:hover{
+  opacity: 0.6;
+}
+.subscribe-button:active{
+  background-color: blue;
+}
+.join-button{
+  background-color: white; 
+  color:rgb(41, 149, 231);
+  padding-left: 16px;
+  padding-top: 9px;
+  padding-right: 16px;
+  padding-bottom: 9px;
+  border-radius:2px;
+  border-color: rgb(41, 149, 231);
+  border-style: solid;
+  border-width: 1px;
+  margin-right:10px;
+  cursor:pointer;
+  transition: background-color 1s,
+   color 1s;
+}
+.join-button:hover{
+  background-color: blue;
+  color:white;
+}
+.join-button:active{
+  opacity: 0.6;
+}
+.twitter-button{
+  background-color:rgb(52, 118, 219);
+  border-radius:20px;
+  color:white;
+  height:30px;
+  width: 70px;
+  border-style: solid;
+  cursor:pointer;
+  border:none;
+  font-weight: bold;
+  font-size: 13px;
+  margin-right:10px;
+  transition: box-shadow 1s;
+}
+.twitter-button:hover{
+  box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.4);
+}
+.twitter-button:active{
+  opacity:0.8;
+}
+.request-button{
+  background-color: black;
+  color:white;
+  border: none;
+  border-width: 5px;
+  font-size:10px;
+  height:30px;
+  width: 80px;
+  cursor:pointer;
+  margin-right:10px;
+  transition: opacity 0.15s;
+}
+.request-button:hover{
+  opacity:0.6
+}
+.cart-button{
+  background-color: rgb(255, 216, 20);
+  border-radius:15px;
+  font-size:12px;
+  height:30px;
+  width: 140px;
+  cursor:pointer;
+  border:none;
+  color:black;
+  margin-right:10px;
+  transition: opacity 1s;
+}
+.cart-button:hover{
+  opacity:0.8
+}
+.sign-button{
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  border-radius:5px;
+  cursor:pointer;
+  height:30px;
+  width: 80px;
+  margin-right:10px;
+  transition: box-shadow 0.24s;
+}
+.sign-button:hover{
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.Bootstrap-button{
+  background-color: rgb(121,82,179);
+  color: white;
+  border-radius:2px;
+  border: none;
+  height:35px;
+  width: 100px;
+  cursor:pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: opacity 0.18s;
+}
+.Bootstrap-button:hover{
+  opacity:0.8;
+}
+.Bootstrap{
+  background-color: white;
+  color: rgb(108,117,125);
+  border:rgb(108,117,125);
+  border-radius:2px;
+  height:35px;
+  width: 100px;
+  border-width:1px;
+  border-style: solid;
+  cursor:pointer;
+  margin-left: 5px;
+  transition: background-color 0.15s,
+   color 0.15s;
+}
+.Bootstrap:hover{
+  background-color: rgb(108,117,125);
+  color:white;
+}
+.Linkedln{
+  background-color: rgb(10,102,194);
+  color: white;
+  cursor:pointer;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  border: solid;
+  height:40px;
+  width: 223px;
+  border-radius: 30px;
+  transition: opacity 0.34s;
+}
+.Linkedln:hover{
+  opacity: 0.6;
+}
+.save-button{
+  background: white;
+  color:rgb(10,102,194);
+  border-width: 1px;
+  height:40px;
+  width: 85px;
+  border-radius: 30px;
+  border-color: rgb(10,102,194);
+  font-size:15px;
+  font-weight: bold;
+  cursor:pointer;
+  transition:border-width 1s,
+   border-color 1s,
+   background-color 1s;
+}
+.save-button:hover{
+  border-width: 2px;
+  border-color: rgb(10,102,194);
+  background-color:rgb(186, 212, 223);
+}

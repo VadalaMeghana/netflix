@@ -1,0 +1,8 @@
+.channel{
+  border-radius: 500px;
+  display: inline-block;
+}
+.text{
+  display: inline-block;
+  text-align: top;
+}
